@@ -61,7 +61,8 @@
 }
 
 .portfolio-text-big,
-.feature-text-big {
+.feature-text-big,
+.profile-text-big {
   font-size: 32px;
   color: #000000;
   text-align: center;
@@ -78,7 +79,8 @@ hr {
 }
 
 .portfolio-text-small,
-.feature-text-small {
+.feature-text-small,
+.profile-text-small {
   font-size: 16px;
   color: #000000;
   margin: 30px auto;
@@ -119,6 +121,7 @@ hr {
   padding-bottom: 90px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .feature-strength-container {
@@ -153,8 +156,23 @@ hr {
   text-align: left;
 }
 
+.main-profile {
+  background-color: #eceff1;
+  text-align: center;
+}
 
+.profile-container {
+  display: flex;
+}
 
+.profile-icon-area {
+  width: 512px;
+}
 
+.profile-icon {
+  border-radius: 50%;
+}
 
-
+.profile-introduction-area {
+  width: 512px;
+}
