@@ -163,16 +163,30 @@ hr {
 
 .profile-container {
   display: flex;
+  justify-content: center;
 }
 
 .profile-icon-area {
   width: 512px;
+  text-align: center;
 }
 
 .profile-icon {
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
 }
 
 .profile-introduction-area {
   width: 512px;
+}
+
+.my-name,
+.my-skills {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.my-name-text {
+  margin-bottom: 20px;
 }
