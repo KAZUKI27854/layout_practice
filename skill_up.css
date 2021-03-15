@@ -62,7 +62,8 @@
 
 .portfolio-text-big,
 .feature-text-big,
-.profile-text-big {
+.profile-text-big,
+.contact-text-big {
   font-size: 32px;
   color: #000000;
   text-align: center;
@@ -80,7 +81,8 @@ hr {
 
 .portfolio-text-small,
 .feature-text-small,
-.profile-text-small {
+.profile-text-small,
+.contact-text-small {
   font-size: 16px;
   color: #000000;
   margin: 30px auto;
@@ -179,6 +181,7 @@ hr {
 
 .profile-introduction-area {
   width: 512px;
+  text-align: left;
 }
 
 .my-name,
@@ -189,4 +192,34 @@ hr {
 
 .my-name-text {
   margin-bottom: 20px;
+}
+
+.main-contact {
+  width: 800px;
+  text-align: center;
+  margin: 0 auto 90px auto;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-mail-area {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.mail, .tel, .sns {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.tel {
+  margin-top: 20px;
+}
+
+.twitter-icon {
+  margin-left: 20px;
+  margin-right: 20px;
 }
