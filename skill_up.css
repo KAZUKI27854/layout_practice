@@ -61,7 +61,8 @@
 }
 
 .portfolio-text-big,
-.feature-text-big {
+.feature-text-big,
+.profile-text-big {
   font-size: 32px;
   color: #000000;
   text-align: center;
@@ -78,7 +79,8 @@ hr {
 }
 
 .portfolio-text-small,
-.feature-text-small {
+.feature-text-small,
+.profile-text-small {
   font-size: 16px;
   color: #000000;
   margin: 30px auto;
@@ -129,6 +131,7 @@ hr {
 .strength2,
 .strength3 {
   width: 320px;
+  text-align: center;
 }
 
 .strength2 {
@@ -152,6 +155,41 @@ hr {
 #strength3-text {
   text-align: left;
 }
+
+.main-profile {
+  background-color: #eceff1;
+  padding-bottom: 90px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-icon-area {
+  width: 512px;
+  text-align: center;
+}
+
+.profile-icon {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.profile-introduction-area {
+  width: 512px;
+}
+
+.my-name, .my-skills {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.my-name-text {
+  margin-bottom: 20px;
+}
+
 
 
 
