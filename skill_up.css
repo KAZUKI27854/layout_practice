@@ -62,7 +62,12 @@
 
 .portfolio-text-big,
 .feature-text-big,
+<<<<<<< HEAD
 .profile-text-big {
+=======
+.profile-text-big,
+.contact-text-big {
+>>>>>>> d41be1a48b5d307502a2a613a5f832e07b1cd6e6
   font-size: 32px;
   color: #000000;
   text-align: center;
@@ -80,7 +85,12 @@ hr {
 
 .portfolio-text-small,
 .feature-text-small,
+<<<<<<< HEAD
 .profile-text-small {
+=======
+.profile-text-small,
+.contact-text-small {
+>>>>>>> d41be1a48b5d307502a2a613a5f832e07b1cd6e6
   font-size: 16px;
   color: #000000;
   margin: 30px auto;
@@ -121,6 +131,7 @@ hr {
   padding-bottom: 90px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .feature-strength-container {
@@ -158,6 +169,7 @@ hr {
 
 .main-profile {
   background-color: #eceff1;
+<<<<<<< HEAD
   padding-bottom: 90px;
 }
 
@@ -191,8 +203,68 @@ hr {
 }
 
 
+=======
+  text-align: center;
+}
+>>>>>>> d41be1a48b5d307502a2a613a5f832e07b1cd6e6
 
+.profile-container {
+  display: flex;
+  justify-content: center;
+}
 
+.profile-icon-area {
+  width: 512px;
+  text-align: center;
+}
 
+.profile-icon {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
 
+.profile-introduction-area {
+  width: 512px;
+  text-align: left;
+}
 
+.my-name,
+.my-skills {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.my-name-text {
+  margin-bottom: 20px;
+}
+
+.main-contact {
+  width: 800px;
+  text-align: center;
+  margin: 0 auto 90px auto;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-mail-area {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.mail, .tel, .sns {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.tel {
+  margin-top: 20px;
+}
+
+.twitter-icon {
+  margin-left: 20px;
+  margin-right: 20px;
+}
